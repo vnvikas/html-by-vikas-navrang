@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML</title>
+</head>
+<body>
+    <!-- <h3>Form In HTML</h3>
+    tags in form 
+    <h4>form tag</h4>
+    <h4>input tag</h4>
+    <h4>label tag</h4>
+    <h4>select tag</h4>
+    <h4>option tag</h4>
+    <h4>textarea tag</h4>
+    <h4>button tag</h4>
+    <h4>form attributes</h4>
+    <h5>action attribute</h5>
+    <h5>method attribute</h5>
+    <h5>enctype attribute</h5>
+    <h5>target attribute</h5>
+    <h5>autocomplete attribute</h5>
+    <h4>input types</h4>
+    <h5>text</h5>
+    <h5>password</h5>
+    <h5>email</h5>
+    <h5>number</h5>
+    <h5>date</h5>
+    <h5>checkbox</h5>
+    <h5>radio</h5>
+    <h5>submit</h5>
+    <h5>reset</h5>
+    <h5>file</h5>
+    <h5>hidden</h5>
+    <h5>color</h5>
+    <h5>range</h5>
+    <h5>search</h5>
+    <h5>tel</h5>
+    <h5>url</h5> -->
+    <fieldset style="height: 800px; width: 100; border-radius: 50px; margin-left: 100px; margin-right: 500; padding: 3px;">
+   <legend >This is login page</legend>
+
+    <h2>HTML Form Example</h2>
+
+    <form action="submit.php" method="post" enctype="multipart/form-data"
+          target="_self" autocomplete="on" class="form" style="height: 640px; width: 50; border-radius: 2px; margin-left: 600px; padding: 1px;">
+
+        <!-- Text -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Number -->
+        <label for="mobile">Mobile Number:</label>
+        <input type="number" id="mobile" name="mobile">
+        <br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Radio -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="gaming" name="hobby" value="Gaming">
+        <label for="gaming">Gaming</label>
+        <br><br>
+
+        <!-- Select & Option -->
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="mumbai">Mumbai</option>
+            <option value="delhi">Delhi</option>
+            <option value="jaipur">Jaipur</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- File -->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <!-- Hidden -->
+        <input type="hidden" name="userid" value="101">
+
+        <!-- Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+
+        <!-- Range -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100">
+        <br><br>
+
+        <!-- Search -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+        <br><br>
+
+        <!-- Tel -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel">
+        <br><br>
+
+        <!-- URL -->
+        <label for="website">Website:</label>
+        <input type="www.google.com" id="website" name="website">
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset -->
+        <input type="reset" value="Reset">
+
+        <!-- Button -->
+        <button type="button">Click Me</button>
+
+    </form>
+    </fieldset>
+</body>
+</html>
